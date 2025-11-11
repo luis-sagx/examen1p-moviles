@@ -9,16 +9,16 @@ class EmployeeController {
 
     int? antiguedad = int.tryParse(antiguedadStr);
     if (antiguedad == null) {
-      return 'La antigüedad debe ser un número entero válido.';
+      return 'La antiguedad debe ser un numero entero valido.';
     }
 
     if (antiguedad < 0) {
-      return 'La antigüedad no puede ser negativa.';
+      return 'La antiguedad no puede ser negativa.';
     }
 
     double? sueldoActual = double.tryParse(sueldoStr);
     if (sueldoActual == null) {
-      return 'El sueldo debe ser un número válido.';
+      return 'El sueldo debe ser un numero valido.';
     }
 
     if (sueldoActual <= 0) {
