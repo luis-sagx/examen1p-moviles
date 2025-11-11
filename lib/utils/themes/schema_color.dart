@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 
 class SchemaColor {
-  static const Color primaryColor = Color(0xFF1976D2); // Azul profesional
+  static const Color primaryColor = Color.fromARGB(
+    255,
+    25,
+    40,
+    210,
+  ); // Azul profesional
   static const Color secondaryColor = Color(0xFF4CAF50); // Verde éxito
   static const Color accentColor = Color(0xFF2196F3);
   static const Color successColor = Color(0xFF66BB6A);
