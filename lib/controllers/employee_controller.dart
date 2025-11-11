@@ -31,9 +31,8 @@ class EmployeeController {
     );
 
     final resultado = employee.getResultado();
-    return 'Antigüedad: ${resultado['antiguedad']} años\n'
-        'Sueldo anterior: \$${resultado['sueldoActual'].toStringAsFixed(2)}\n'
-        'Porcentaje de reajuste: ${resultado['porcentajeAumento'].toStringAsFixed(0)}%\n\n'
+    return 'Antiguedad: ${resultado['antiguedad']} años\n'
+        'Tiene un aumento de: ${resultado['porcentajeAumento'].toStringAsFixed(0)}%\n\n'
         'Nuevo sueldo: \$${resultado['nuevoSueldo'].toStringAsFixed(2)}';
   }
 }
